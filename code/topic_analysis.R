@@ -12,6 +12,7 @@ stpw <- import('stopwords.txt', setclass = 'tibble')
 
 
 
+
 raw_tweets <- list.files("all_tweets", full.names = T) %>%
   map_df(import, setclass = "tibble")
 
