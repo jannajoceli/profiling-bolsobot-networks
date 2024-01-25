@@ -1,7 +1,7 @@
 import botometer
 import codecs, csv
 
-rapidapi_key = "75b0e3dc5emsh20d577dc3229d14p198c32jsn5ef87f3e68d1"
+rapidapi_key = "API_KEY"
 twitter_app_auth = {
     'consumer_key': '',
     'consumer_secret': '',
